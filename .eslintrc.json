@@ -9,6 +9,13 @@
     "ecmaVersion": 12,
     "sourceType": "module"
   },
+  "globals": {
+    "describe": "readonly",
+    "it": "readonly",
+    "expect": "readonly",
+    "beforeEach": "readonly",
+    "afterEach": "readonly"
+  },
   "rules": {
     "semi": ["error", "always"],
     "quotes": ["error", "single"]
