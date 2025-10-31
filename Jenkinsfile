@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/Amnaaaaaaaaaaaa/task2.git'
+                git branch: 'master', url: 'https://github.com/Amnaaaaaaaaaaaa/task2.git'
             }
         }
         stage('Install Dependencies') {
